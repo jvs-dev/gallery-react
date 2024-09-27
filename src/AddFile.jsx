@@ -3,7 +3,7 @@ import { getFirestore, collection, addDoc } from "https://www.gstatic.com/fireba
 import { getStorage, ref, uploadString } from "https://www.gstatic.com/firebasejs/10.13.2/firebase-storage.js";
 import React, { useState } from 'react';
 import Header from './Header';
-import './Addfile.css';
+import './AddFile.css';
 import { NavLink } from 'react-router-dom';
 import Notice from "./Notice";
 
