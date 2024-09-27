@@ -1,0 +1,16 @@
+:root {
+    --black: #000000;
+    --white: #fff;
+    --black-red: #3C0000;
+    --red: #3C0000;
+    --red-2: #950101;
+    --light-red: #FE0002;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    background: var(--black);
+    min-height: 100vh;
+    padding: 0px;
+    margin: 0px;
+  }

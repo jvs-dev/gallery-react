@@ -1,0 +1,39 @@
+article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: solid 1px var(--black-red);
+    width: 50vw;
+    margin: 5px 0px;
+}
+
+img {
+    width: 100%;
+}
+
+.cardDiv {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+    margin: 0px 0px 10px 0px;
+}
+
+.cardButton {
+    color: var(--white);
+    font-size: 22px;
+    cursor: pointer;
+}
+
+p {
+    color: var(--white);
+    margin: 5px 0px 0px 0px;
+    width: 100%;
+    text-align: left;
+}
+
+@media only screen and (max-width: 600px) {
+    article {
+        width: calc(100vw - 40px);
+    }
+}

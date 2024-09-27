@@ -1,0 +1,39 @@
+h1 {
+    color: var(--light-red);
+    font-size: 32px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 40px;
+}
+
+button {
+    background: transparent;
+    color: var(--white);
+    border: 0px;
+    outline-width: 0px;
+    font-size: 26px;
+    cursor: pointer;
+    padding: 0px;
+    margin: 0px;
+}
+
+.bi-plus-circle {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    header {
+        padding: 20px;
+    }
+}

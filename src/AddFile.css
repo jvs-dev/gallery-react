@@ -1,0 +1,62 @@
+.addDiv {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    visibility: hidden;
+    display: none;
+}
+
+textarea {
+    margin: 10px 0px;
+    width: 50vw;
+    background: #eee;
+    border: solid 1px #1e1e1e;
+}
+
+.addPreview {
+    display: flex;
+    align-items: center;
+    background: #1e1e1e;
+    width: 50vw;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+
+.addBtn {
+    width: calc((100% / 2) - 5px);
+    color: var(--white);
+    font-size: 18px;
+    margin: 0px;
+    padding: 10px 0px;
+    cursor: pointer;
+}
+
+.addBtn a {
+    width: 100%;
+    text-decoration: none;
+    color: var(--white);
+}
+
+.addDiv--2 {
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+@media only screen and (max-width: 600px) {
+    .addPreview {
+        width: calc(100vw - 40px);
+    }
+
+    textarea {
+        width: calc(100vw - 40px);
+    }
+
+    .addDiv--2 {
+        width: calc(100vw - 40px);
+    }
+}
